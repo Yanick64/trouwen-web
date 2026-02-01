@@ -6,7 +6,7 @@ import { FadeIn } from "./FadeIn";
 export default function LoveStory() {
   return (
     <section id="love-story" className="bg-cream pt-16 lg:pt-0 overflow-hidden">
-      <div className="container flex flex-col lg:flex-row lg:min-h-[900px]">
+      <div className="container flex flex-col lg:flex-row lg:min-h-[800px]">
         {/* Left Column - Images */}
         <div className="flex flex-col lg:flex-1 relative">
           {/* Header and main image */}

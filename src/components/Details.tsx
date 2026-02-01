@@ -61,7 +61,7 @@ export default function Details() {
       icon: <DressCodeIcon />,
       title: "Dress Code",
       description:
-        "La Dolce Vita, Italian Summer Chique. Elegante zomerse kleuren en luchtige outfits alsof je je in Italië waant. Denk aan linnenpakken en lange elegante jurken.",
+        "De dresscode is Garden Party Chic. Dit betekent dat je een elegante, zomerse stijl kunt dragen met zachte kleuren, lichte stoffen en een romantische sfeer.",
       linkHref: "/dresscode",
     },
     {

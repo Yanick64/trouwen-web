@@ -77,7 +77,7 @@ export default function LocatiePage() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                   {/* Address */}
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-cream-light p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-4 text-foreground">
                       Adres
                     </h3>
@@ -98,7 +98,7 @@ export default function LocatiePage() {
                   </div>
 
                   {/* By Car */}
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-cream-light p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-4 text-foreground">
                       Met de auto &amp; parkeren
                     </h3>
@@ -110,7 +110,7 @@ export default function LocatiePage() {
                   </div>
 
                   {/* Public Transport */}
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-cream-light p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-4 text-foreground">
                       Openbaar vervoer
                     </h3>

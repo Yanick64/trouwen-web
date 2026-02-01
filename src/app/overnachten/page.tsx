@@ -49,7 +49,7 @@ export default function OvernachtenPage() {
                   breakfasts voor een rustige en comfortabele overnachting.
                 </p>
 
-                <div className="bg-olive/10 p-6 rounded-lg">
+                <div className="bg-cream-light p-6 rounded-lg">
                   <p>
                     <strong className="block text-lg mb-2">
                       Speciale afspraken met Van der Valk Nijmegen-Lent
@@ -85,7 +85,7 @@ export default function OvernachtenPage() {
 
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* B&Bs */}
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-cream-light p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-4 text-foreground">
                       Bed &amp; Breakfasts
                     </h3>
@@ -138,7 +138,7 @@ export default function OvernachtenPage() {
                   </div>
 
                   {/* Hotels */}
-                  <div className="bg-white p-6 rounded-lg">
+                  <div className="bg-cream-light p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-4 text-foreground">
                       Hotels
                     </h3>

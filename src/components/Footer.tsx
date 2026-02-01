@@ -9,7 +9,7 @@ export default function Footer() {
     <footer id="contact" className="bg-olive-dark text-white pb-16">
       <Image
         src="/wine.jpg"
-        alt="Footer Background"
+        alt=""
         width={2000}
         height={814}
         className="w-full object-cover mb-16"

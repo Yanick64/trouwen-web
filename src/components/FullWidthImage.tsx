@@ -12,7 +12,7 @@ export default function FullWidthImage() {
       >
         <Image
           src="/left.jpg"
-          alt="Our love story"
+          alt=""
           fill
           className="object-cover object-center"
         />
@@ -21,7 +21,7 @@ export default function FullWidthImage() {
       <FadeIn direction="right" className="flex items-center justify-center">
         <Image
           src="/right.jpg"
-          alt="Our love story"
+          alt=""
           width={1600}
           height={1600}
           className="p-8 md:p-16 w-full max-w-[600px]"

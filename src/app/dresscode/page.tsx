@@ -63,7 +63,7 @@ export default function DresscodePage() {
 
                 <Image
                   src="/dresscode.png"
-                  alt="Dress Code"
+                  alt=""
                   width={1000}
                   height={1500}
                   className="mt-16"

@@ -22,7 +22,7 @@ export default function LoveStory() {
             <FadeIn delay={0.2} className="order-1 lg:order-2">
               <Image
                 src="/our-love-story.jpg"
-                alt="Our love story"
+                alt=""
                 width={345}
                 height={520}
                 className="w-[280px] lg:w-[450px] h-auto z-10 relative"
@@ -34,7 +34,7 @@ export default function LoveStory() {
             delay={0.3}
             className="hidden lg:block mt-auto absolute bottom-0 right-0"
           >
-            <Image src="/vienna.png" alt="Venetie" width={800} height={395} />
+            <Image src="/vienna.png" alt="" width={800} height={395} />
           </FadeIn>
         </div>
 
@@ -83,7 +83,7 @@ export default function LoveStory() {
       <FadeIn delay={0.4} className="container lg:hidden">
         <Image
           src="/vienna.png"
-          alt="Venetie"
+          alt=""
           width={800}
           height={395}
           className="w-full h-auto"

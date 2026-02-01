@@ -107,7 +107,7 @@ export default function Program() {
           <FadeIn delay={0.3} direction="right">
             <Image
               src="/doddendael.jpg"
-              alt="Wedding Venue"
+              alt=""
               width={600}
               height={600}
               className="w-full"

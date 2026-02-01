@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+:root {
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #020202;
+
+  /* Wedding theme colors */
+  --olive: #6f774e;
+  --olive-light: #8b9b7f;
+  --olive-dark: #6f774e;
+  --cream: #eeede7;
+  --cream-dark: #d8d4c9;
+  --cream-light: #f5f3ee;
+  --sage: #a4b494;
+  --white: #ffffff;
+  --gold: #b8a88a;
+
+  /* Typography */
+  --font-serif: var(--font-cormorant);
+  --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-olive: var(--olive);
+  --color-olive-light: var(--olive-light);
+  --color-olive-dark: var(--olive-dark);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-cream-light: var(--cream-light);
+  --color-sage: var(--sage);
+  --color-gold: var(--gold);
+
+  /* Fonts */
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-cormorant), -apple-system, sans-serif;
+}
+
+/* Base styles */
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* .body {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.body > section,
+.body > footer {
+  scroll-snap-align: start;
+} */
+
+/* Utility classes for consistent styling */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Typography utilities */
+.heading-display {
+  font-family: var(--font-serif), Georgia, serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.heading-section {
+  font-family: var(--font-serif), Georgia, serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.body-text {
+  font-family: var(--font-serif), Georgia, serif;
+  line-height: 1.8;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply inline-block px-8 py-3 bg-olive text-white font-medium tracking-wider uppercase text-sm transition-colors hover:bg-olive-dark;
+}
+
+.btn-footer {
+  @apply inline-block px-8 py-3 bg-cream text-foreground font-medium tracking-wider uppercase text-sm transition-colors hover:bg-cream-dark;
+}
+
+.btn-outline {
+  @apply inline-block px-8 py-3 border border-foreground text-foreground font-medium tracking-wider uppercase text-sm transition-colors hover:bg-foreground hover:text-white;
+}
+
+/* Accordion styles for Radix */
+.accordion-trigger {
+  @apply flex justify-between items-center w-full py-4 text-left;
+}
+
+.accordion-trigger[data-state="open"] .accordion-chevron {
+  transform: rotate(180deg);
+}
+
+.accordion-chevron {
+  transition: transform 200ms ease;
+}
+
+.accordion-content {
+  overflow: hidden;
+}
+
+.accordion-content[data-state="open"] {
+  animation: slideDown 200ms ease-out;
+}
+
+.accordion-content[data-state="closed"] {
+  animation: slideUp 200ms ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}

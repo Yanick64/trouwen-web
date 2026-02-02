@@ -53,9 +53,10 @@ export default function LoveStory() {
               <FadeIn delay={0.2}>
                 <p>
                   Na veel leuke dates gingen we naar Venetië. Geen toeristen,
-                  alleen wij en een beetje romantiek. Op Lido vroeg Yanick mij
-                  verkering in zee, op de dag dat Italië het EK won. Venetië was
-                  het begin van alles: onze relatie en onze liefde voor Italië.
+                  alleen wij en een beetje romantiek. Op Lido vroeg Yanick
+                  Martine verkering in zee, op de dag dat Italië het EK won.
+                  Venetië was het begin van alles: onze relatie en onze liefde
+                  voor Italië.
                 </p>
               </FadeIn>
               <FadeIn delay={0.3}>

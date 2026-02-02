@@ -12,7 +12,7 @@ interface TimelineItem {
 const dayProgram: TimelineItem[] = [
   { time: "13:30 uur", title: "Aanvang" },
   { time: "14:00 uur", title: "Ceremonie" },
-  { time: "14:45 uur", title: "Proost & Toast" },
+  { time: "14:45 uur", title: "Proost & Taart" },
   { time: "17:30 uur", title: "Diner" },
 ];
 
